@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResultCellID" rowHeight="201" id="KGk-i7-Jjw" customClass="ResultCell" customModule="OmnicurisTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyL-8x-QrQ">
+                        <rect key="frame" x="10" y="10" width="355" height="33"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="option1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ap2-36-3bG">
+                        <rect key="frame" x="45" y="48" width="320" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSd-Cy-vva">
+                        <rect key="frame" x="20" y="47.5" width="20" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="Q73-9G-sPI"/>
+                            <constraint firstAttribute="width" constant="20" id="yew-yH-BjQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHI-Hv-ObM">
+                        <rect key="frame" x="20" y="72" width="20" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMB-6D-dpZ">
+                        <rect key="frame" x="20" y="96" width="20" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="option2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ess-gk-EUU">
+                        <rect key="frame" x="45" y="72" width="320" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="option3" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsz-zc-GDe">
+                        <rect key="frame" x="45" y="96" width="320" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="option4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mid-EK-hUp">
+                        <rect key="frame" x="45" y="120" width="320" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Ans" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2c-ZU-i7B">
+                        <rect key="frame" x="105" y="149" width="260" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actual Ans" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUo-Qi-v9q">
+                        <rect key="frame" x="125" y="173" width="240" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebj-Qo-8ge">
+                        <rect key="frame" x="20" y="120" width="20" height="19"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Ans:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxn-HI-5Xd">
+                        <rect key="frame" x="20" y="148.5" width="76.5" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76.5" id="53C-6u-Agd"/>
+                            <constraint firstAttribute="height" constant="20.5" id="tgt-i4-BbN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correct Ans:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKV-ss-KX3">
+                        <rect key="frame" x="20" y="172.5" width="100.5" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="WuG-C3-9ag"/>
+                            <constraint firstAttribute="width" constant="100.5" id="cmA-N6-5OV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mid-EK-hUp" firstAttribute="trailing" secondItem="xsz-zc-GDe" secondAttribute="trailing" id="0Za-xK-ab4"/>
+                    <constraint firstItem="ebj-Qo-8ge" firstAttribute="centerY" secondItem="Mid-EK-hUp" secondAttribute="centerY" id="0c2-1A-e49"/>
+                    <constraint firstItem="J2c-ZU-i7B" firstAttribute="trailing" secondItem="Mid-EK-hUp" secondAttribute="trailing" id="2AJ-vd-vwB"/>
+                    <constraint firstItem="xsz-zc-GDe" firstAttribute="leading" secondItem="ess-gk-EUU" secondAttribute="leading" id="3iK-fk-S9t"/>
+                    <constraint firstItem="J2c-ZU-i7B" firstAttribute="leading" secondItem="Gxn-HI-5Xd" secondAttribute="trailing" constant="8.5" id="4ME-LC-Kup"/>
+                    <constraint firstItem="GyL-8x-QrQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="4u6-5X-xR1"/>
+                    <constraint firstAttribute="trailing" secondItem="GyL-8x-QrQ" secondAttribute="trailing" constant="10" id="5WZ-f0-YNA"/>
+                    <constraint firstItem="Gxn-HI-5Xd" firstAttribute="centerY" secondItem="J2c-ZU-i7B" secondAttribute="centerY" id="74r-yK-G5e"/>
+                    <constraint firstItem="xsz-zc-GDe" firstAttribute="top" secondItem="ess-gk-EUU" secondAttribute="bottom" constant="5" id="8cG-FW-E5R"/>
+                    <constraint firstItem="ess-gk-EUU" firstAttribute="trailing" secondItem="ap2-36-3bG" secondAttribute="trailing" id="9St-iD-59l"/>
+                    <constraint firstItem="YMB-6D-dpZ" firstAttribute="leading" secondItem="WHI-Hv-ObM" secondAttribute="leading" id="AGO-AZ-fH3"/>
+                    <constraint firstItem="ebj-Qo-8ge" firstAttribute="leading" secondItem="YMB-6D-dpZ" secondAttribute="leading" id="AUC-GS-Sbs"/>
+                    <constraint firstItem="kUo-Qi-v9q" firstAttribute="leading" secondItem="VKV-ss-KX3" secondAttribute="trailing" constant="4.5" id="AdA-40-kU6"/>
+                    <constraint firstItem="Gxn-HI-5Xd" firstAttribute="leading" secondItem="ebj-Qo-8ge" secondAttribute="leading" id="Bcr-7E-AZk"/>
+                    <constraint firstItem="ess-gk-EUU" firstAttribute="leading" secondItem="WHI-Hv-ObM" secondAttribute="trailing" constant="5" id="DQV-rU-SMQ"/>
+                    <constraint firstItem="kUo-Qi-v9q" firstAttribute="top" secondItem="J2c-ZU-i7B" secondAttribute="bottom" constant="5" id="Fgg-Ez-vh0"/>
+                    <constraint firstItem="Mid-EK-hUp" firstAttribute="top" secondItem="xsz-zc-GDe" secondAttribute="bottom" constant="5" id="I3b-2W-TGt"/>
+                    <constraint firstItem="ess-gk-EUU" firstAttribute="top" secondItem="ap2-36-3bG" secondAttribute="bottom" constant="5" id="Irw-94-0Al"/>
+                    <constraint firstItem="ap2-36-3bG" firstAttribute="leading" secondItem="jSd-Cy-vva" secondAttribute="trailing" constant="5" id="KVr-v2-G45"/>
+                    <constraint firstItem="xsz-zc-GDe" firstAttribute="leading" secondItem="YMB-6D-dpZ" secondAttribute="trailing" constant="5" id="Km4-Gm-6B3"/>
+                    <constraint firstItem="GyL-8x-QrQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="KwX-rP-aLf"/>
+                    <constraint firstItem="xsz-zc-GDe" firstAttribute="trailing" secondItem="ess-gk-EUU" secondAttribute="trailing" id="NGX-1J-BGT"/>
+                    <constraint firstItem="jSd-Cy-vva" firstAttribute="centerY" secondItem="ap2-36-3bG" secondAttribute="centerY" id="PIQ-qY-OEs"/>
+                    <constraint firstItem="WHI-Hv-ObM" firstAttribute="leading" secondItem="jSd-Cy-vva" secondAttribute="leading" id="RWE-7l-eiz"/>
+                    <constraint firstItem="Mid-EK-hUp" firstAttribute="leading" secondItem="ebj-Qo-8ge" secondAttribute="trailing" constant="5" id="Ssd-Zh-K9x"/>
+                    <constraint firstAttribute="trailing" secondItem="ap2-36-3bG" secondAttribute="trailing" constant="10" id="UWY-n1-bQ9"/>
+                    <constraint firstItem="kUo-Qi-v9q" firstAttribute="top" secondItem="J2c-ZU-i7B" secondAttribute="bottom" constant="5" id="bgL-Es-U0W"/>
+                    <constraint firstItem="ess-gk-EUU" firstAttribute="leading" secondItem="ap2-36-3bG" secondAttribute="leading" id="jVj-4L-aRq"/>
+                    <constraint firstItem="Mid-EK-hUp" firstAttribute="leading" secondItem="xsz-zc-GDe" secondAttribute="leading" id="oKe-xz-2Ko"/>
+                    <constraint firstItem="J2c-ZU-i7B" firstAttribute="top" secondItem="Mid-EK-hUp" secondAttribute="bottom" constant="10" id="pbI-68-eVt"/>
+                    <constraint firstItem="WHI-Hv-ObM" firstAttribute="centerY" secondItem="ess-gk-EUU" secondAttribute="centerY" id="rgf-Pf-IeJ"/>
+                    <constraint firstItem="VKV-ss-KX3" firstAttribute="leading" secondItem="Gxn-HI-5Xd" secondAttribute="leading" id="sLZ-IR-YhO"/>
+                    <constraint firstAttribute="bottom" secondItem="kUo-Qi-v9q" secondAttribute="bottom" constant="7.5" id="sxi-jg-Hae"/>
+                    <constraint firstItem="ap2-36-3bG" firstAttribute="top" secondItem="GyL-8x-QrQ" secondAttribute="bottom" constant="5" id="tsT-Ee-K66"/>
+                    <constraint firstItem="kUo-Qi-v9q" firstAttribute="trailing" secondItem="J2c-ZU-i7B" secondAttribute="trailing" id="wB3-18-DdG"/>
+                    <constraint firstItem="jSd-Cy-vva" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="wSt-c7-f89"/>
+                    <constraint firstItem="YMB-6D-dpZ" firstAttribute="centerY" secondItem="xsz-zc-GDe" secondAttribute="centerY" id="zRD-8U-c7j"/>
+                    <constraint firstItem="VKV-ss-KX3" firstAttribute="centerY" secondItem="kUo-Qi-v9q" secondAttribute="centerY" id="zuq-Aa-JK9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="actualAnswer" destination="kUo-Qi-v9q" id="I1t-bX-jE0"/>
+                <outlet property="lblOption1" destination="ap2-36-3bG" id="Za0-ar-05b"/>
+                <outlet property="lblOption2" destination="ess-gk-EUU" id="lZm-YO-4zp"/>
+                <outlet property="lblOption3" destination="xsz-zc-GDe" id="RAx-e0-OP9"/>
+                <outlet property="lblOption4" destination="Mid-EK-hUp" id="ugj-hP-ZdG"/>
+                <outlet property="lblQuestion" destination="GyL-8x-QrQ" id="6aV-iw-yfY"/>
+                <outlet property="yourAnswer" destination="J2c-ZU-i7B" id="TX1-cU-Zqh"/>
+            </connections>
+            <point key="canvasLocation" x="73" y="201"/>
+        </tableViewCell>
+    </objects>
+</document>

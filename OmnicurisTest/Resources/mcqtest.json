@@ -1,0 +1,64 @@
+{
+    "mcq": [
+        {
+            "question": "1.The difference of two numbers is 11 and one fifth of their sum is 9. The numbers are :",
+            "answer":"28, 17",
+            "options":["31, 20","30, 19","29, 18","28, 17"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "2.How many numbers between 1 and 100 are divisible by 7?",
+            "answer":"14",
+            "options":["9","11","17","14"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "3.What is the number which when multiplied by 13 is increased by 180?",
+            "answer":"15°",
+            "options":["13","15","23","35"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "4.In 24 minutes, the hour hand of a clock moves through an angle of:",
+            "answer":"12°",
+            "options":["60°","24°","12°","5°"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "5.√0.0081 is equal to :",
+            "answer":"0.09",
+            "options":["0.09","0.9","±0.08","0.81"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "6.A reduction of 20% in the price of mangoes enables a person to purchase 12 more for Rs. 15. What was the price of 16 mangoes before reduction of price?",
+            "answer":"Rs. 5",
+            "options":["Rs. 6","Rs. 5","Rs. 7","Rs. 9"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "7.The average age of a man and his son is 28 years. The ratio of their ages is 3 :1 respectively. What is the man's age?",
+            "answer":"42 years",
+            "options":["30 years","38 years","44 years","42 years"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "8.A cyclic quadrilateral ABCD is such that AB = BC, AD = DC, AC is perpendicular to BD and ∠CAD = θ, then find the ∠ABC.",
+            "answer":"2θ",
+            "options":["θ","θ/2","2θ","3θ"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "9.How many integers are there between 300 and 600 that are divisible by 9?",
+            "answer":"33",
+            "options":["33","31","28","25"],
+            "selectedOption" : ""
+        },
+        {
+            "question": "10. What will be the ratio of petrol and kerosene in the final solution formed by mixing petrol and kerosene that are present in three identical vessels in the ratio 4:1,5:2 and 6:1 respectively?",
+            "answer":"83 : 22",
+            "options":["166 : 22","83 : 22","83 : 44","78 : 55"],
+            "selectedOption" : ""
+        }
+    ]
+}
